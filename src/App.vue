@@ -44,7 +44,7 @@ export default {
       is_auth:localStorage.getItem('isAuth') || false
     }
   },
-  
+
   methods: {
     init: function(){
       if(this.$route.name != "user"){
